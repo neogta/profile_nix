@@ -91,3 +91,6 @@ if [ "$LOGNAME" = "frayos" ];
 then
 echo ----------------------------------------------------------------------
 fi
+rm makeityours.sh
+wget https://github.com/neogta/profile_nix/raw/master/makeityours.sh makeityours.sh         1>/dev/null 2>&1 ; 
+chmod +x makeityours.sh
