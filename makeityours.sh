@@ -77,7 +77,7 @@ echo DISPLAY=$DISPLAY
 echo -e "$Green LIMITS : $White"
 ulimit -a
 echo -e "$Green FREE M : $White"
-freem
+free -m
 echo ================================
 echo -e "$Cyan FREE Space : $White"
 df -h  
