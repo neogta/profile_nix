@@ -74,11 +74,10 @@ echo ----------------------------------------------------------------------
 DISPLAYA=`echo $SSH_CLIENT | awk '{ print $1}'`
 export DISPLAY=$DISPLAYA:0
 echo DISPLAY=$DISPLAY
-
-
-
 echo -e "$Green LIMITS : $White"
 ulimit -a
+echo -e "$Green FREE M : $White"
+freem
 echo ================================
 echo -e "$Cyan FREE Space : $White"
 df -h  
